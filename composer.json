@@ -1,0 +1,26 @@
+{
+    "name": "christianvermeulen/postalcode-bundle",
+    "type": "symfony-bundle",
+    "description": "This bundle helps to retrieve and validate addresses from The Netherlands through https://api.postcode.nl",
+    "keywords": ["postalcode", "bundle", "netherlands"],
+    "homepage": "http://github.com/ChristianVermeulen/TestBundle",
+    "license": "MIT",
+    "versio": "0.1.0",
+    "authors": [
+        {
+            "name": "Christian Vermeulen",
+            "email": "info@christianvermeulen.net"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.2"
+    },
+    "require-dev": {
+        "symfony/framework-bundle": "2.3.*"
+    },
+    "autoload": {
+        "psr-0": { "ChristianVermeulen\\PostalcodeBundle": "" }
+    },
+    "minimum-stability": "dev",
+    "target-dir": "ChristianVermeulen/PostalcodeBundle"
+}

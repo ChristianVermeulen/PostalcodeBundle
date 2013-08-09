@@ -1,0 +1,3 @@
+christian_vermeulen_postalcode_homepage:
+    pattern:  /hello/{name}
+    defaults: { _controller: ChristianVermeulenPostalcodeBundle:Default:index }
