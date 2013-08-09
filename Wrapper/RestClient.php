@@ -20,7 +20,7 @@ NameSpace ChristianVermeulen\PostalcodeBundle\Wrapper;
 */
 
 /** Common superclass for Exceptions raised by this class. */
-class PostcodeNl_Api_RestClient_Exception extends Exception {}
+class PostcodeNl_Api_RestClient_Exception extends \Exception {}
 /** Exception raised when user input is invalid. */
 class PostcodeNl_Api_RestClient_InputInvalidException extends PostcodeNl_Api_RestClient_Exception {}
 /** Exception raised when user input is valid, but no address could be found. */
