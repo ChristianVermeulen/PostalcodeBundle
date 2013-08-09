@@ -1,3 +1,4 @@
-christian_vermeulen_postalcode_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: ChristianVermeulenPostalcodeBundle:Default:index }
+christian_vermeulen_postalcode:
+    pattern:  /lookup
+    defaults: { _controller: ChristianVermeulenPostalcodeBundle:Default:lookup }
+    requirements: { _method: post }
