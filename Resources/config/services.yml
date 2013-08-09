@@ -4,4 +4,4 @@ parameters:
 services:
    christian_vermeulen_postalcode:
        class: ChristianVermeulen\PostalcodeBundle\Wrapper\RestClient
-       arguments: ["%christian_vermeulen_postalcode.key", "%christian_vermeulen_postalcode.secret%"]
+       arguments: ["%christian_vermeulen_postalcode.key%", "%christian_vermeulen_postalcode.secret%"]

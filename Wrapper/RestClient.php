@@ -45,7 +45,7 @@ class RestClient
     /** (string) Version of the client */
     const VERSION = '1.0.0.0';
     /** (int) Maximum number of seconds allowed to set up the connection. */
-    const CONNECTTIMEOUT = 3;
+    const CONNECTTIMEOUT = 10;
     /** (int) Maximum number of seconds allowed to receive the response. */
     const TIMEOUT = 10;
     /** (string) URL where the REST web service is located */
