@@ -11,7 +11,7 @@ class DefaultController extends Controller
     public function lookupAction(Request $request)
     {
         // Get the vars for looking up the postalcode
-        $postalcode = $request->request->get('postal');
+        $postalcode = $request->request->get('postalcode');
         $number = $request->request->get('number');
         $addition = $request->request->get('addition');
 
